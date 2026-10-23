@@ -38,18 +38,17 @@
         <p>I’m a master’s thesis student in the Photogrammetry and Remote Sensing group at <a href="https://ethz.ch/en.html">ETH Zürich</a>, supervised by Li Mi and Lin Li, with mentorship from Konrad Schindler and Yarin Gal in collaboration with the University of Oxford. My thesis investigates geospatial knowledge and hallucinations in vision-language models.</p>
         <p>I’m pursuing an MSc in Data Science at the <a href="https://www.fer.unizg.hr/en">University of Zagreb</a>. Previously, I spent an exchange year and worked as a research assistant at the <a href="https://www.utwente.nl/en/">University of Twente</a> with Estefanía Talavera, studying action understanding and surgical video analysis.</p>
         <div class="social-links" aria-label="Contact and profiles">
-          <a href="mailto:mharalovic@ethz.ch">Email <span aria-hidden="true">↗</span></a>
-          <a href="https://github.com/MarkoHaralovic">GitHub <span aria-hidden="true">↗</span></a>
-          <a href="https://scholar.google.com/citations?user=Wq7AmqEAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
-          <a href="https://www.linkedin.com/in/marko-Haralovic/">LinkedIn <span aria-hidden="true">↗</span></a>
-          <a href="assets/CV_marko_haralovic_academic.pdf" target="_blank" rel="noopener">Curriculum vitae <span aria-hidden="true">↗</span></a>
+          <a href="mailto:mharalovic@ethz.ch"><img src="assets/icons/email.svg" alt="" aria-hidden="true" width="18" height="18">Email</a>
+          <a href="https://github.com/MarkoHaralovic"><img src="assets/icons/github.svg" alt="" aria-hidden="true" width="18" height="18">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=Wq7AmqEAAAAJ&amp;hl=en"><img src="assets/icons/google-scholar.svg" alt="" aria-hidden="true" width="18" height="18">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/marko-Haralovic/"><img src="assets/icons/linkedin.svg" alt="" aria-hidden="true" width="18" height="18">LinkedIn</a>
+          <a href="assets/CV_marko_haralovic_academic.pdf" target="_blank" rel="noopener"><img src="assets/icons/cv.svg" alt="" aria-hidden="true" width="18" height="18">Curriculum vitae</a>
         </div>
       </div>
       <figure class="portrait">
-        <a class="portrait-frame" href="assets/profile_photo.jpeg" target="_blank" rel="noopener" data-enlarge aria-label="Enlarge profile photo">
+        <div class="portrait-frame">
           <img src="assets/profile_photo.jpeg" width="750" height="1000" alt="Marko Haralović" fetchpriority="high">
-          <span class="zoom-icon" aria-hidden="true">+</span>
-        </a>
+        </div>
       </figure>
     </section>
 
@@ -66,7 +65,10 @@
       </div>
       <p id="filter-status" class="sr-only" role="status" aria-live="polite"></p>
       <div class="publication-list">
-        <article class="publication publication-text" data-topic="vision">
+        <article class="publication" data-topic="vision">
+          <a class="paper-visual" href="assets/publications/geotram-pipeline.webp" target="_blank" rel="noopener" data-enlarge aria-label="View the GeoTRAM pipeline">
+            <img src="assets/publications/geotram-pipeline.webp" alt="GeoTRAM pipeline showing spectral point sampling, depth-aware trajectory modeling, spatio-temporal modeling, and action-guided matching" width="200" height="130" loading="lazy">
+          </a>
           <div class="paper-copy">
             <div class="paper-meta"><strong class="venue">WACV 2027</strong></div>
             <h3>GeoTRAM: Geometry-aware Trajectory Modeling for Few-Shot Action Recognition</h3>
@@ -80,7 +82,7 @@
             <img src="assets/publications/medsam-examples.webp" alt="Figure 1: Medical images showing bounding-box prompt perturbations across in-domain, close-OOD, and far-OOD datasets" width="200" height="130" loading="lazy">
           </a>
           <div class="paper-copy">
-            <div class="paper-meta"><strong class="venue">MICCAI · SAFER Workshop 2026</strong><span class="paper-highlight">Oral &amp; poster</span></div>
+            <div class="paper-meta"><strong class="venue">MICCAI · SAFER Workshop 2026</strong></div>
             <h3><a href="https://arxiv.org/abs/2608.21300">When Adaptation Hurts: Connecting Representational Drift to OOD Failures in MedSAM Fine-Tuning</a></h3>
             <p class="authors"><strong>Marko Haralović*</strong>, Sounic Akkaraju*, Carlo Baretta, Vasil Zapryanov, Alexia Briassouli</p>
             <p class="paper-description">Studying how adaptation changes medical foundation model representations and robustness under domain shift and imperfect prompts.</p>
@@ -93,7 +95,7 @@
             <img src="assets/publications/tension-examples.webp" alt="Surgical video frames showing non-tension, low, moderate, adequate, and excessive tissue tension" width="200" height="130" loading="lazy">
           </a>
           <div class="paper-copy">
-            <div class="paper-meta"><strong class="venue">ECCV · MedVidU Workshop 2026</strong><span class="paper-highlight">Oral &amp; poster</span></div>
+            <div class="paper-meta"><strong class="venue">ECCV · MedVidU Workshop 2026</strong><span class="paper-highlight">Oral</span></div>
             <h3><a href="https://arxiv.org/abs/2608.17935">Beyond Instrument Motion: Recognizing Tissue Tension Toward Surgical Skill Assessment</a></h3>
             <p class="authors"><strong>Marko Haralović*</strong>, Zhiqi Miao*, Alexander Machiel Bont, Jiapan Guo, Frans van Workum, Estefanía Talavera</p>
             <p class="paper-description">Recognizing tissue tension in robot-assisted surgery with sparse point tracking, toward richer surgical skill assessment.</p>
@@ -106,7 +108,7 @@
             <img src="assets/publications/g3ego-framework.webp" alt="Figure 2: G3Ego framework showing input video, per-frame feature extraction, graph construction, gaze-guided pruning, and temporal graph modeling" width="200" height="130" loading="lazy">
           </a>
           <div class="paper-copy">
-            <div class="paper-meta"><strong class="venue">ECCV Workshops 2026</strong><span class="paper-highlight">Oral &amp; poster</span></div>
+            <div class="paper-meta"><strong class="venue">ECCV Workshops 2026</strong></div>
             <h3><a href="https://arxiv.org/abs/2608.20157">G3Ego: Gaze-Guided Graphs for Egocentric Action Understanding</a></h3>
             <p class="authors"><strong>Marko Haralović</strong>, Akash Ramakrishnan, Estefanía Talavera</p>
             <p class="paper-description">Using gaze to build compact scene graphs focused on the hand-object interactions that matter for first-person action understanding.</p>
@@ -137,35 +139,35 @@
       <div class="experience-list">
         <article class="experience-item">
           <p class="item-date">Sep 2026 — Apr 2027</p>
-          <div><h3>Master’s Thesis Internship</h3><p class="organization">ETH Zürich · Photogrammetry and Remote Sensing</p><p>Probing geospatial knowledge in vision-language models through a hallucination benchmark for real-world place, entity, and relation queries. In collaboration with researchers at Oxford.</p></div>
+          <div><h3>Master’s Thesis Internship</h3><p class="organization">ETH Zürich · Photogrammetry and Remote Sensing</p></div>
         </article>
         <article class="experience-item">
           <p class="item-date">Nov 2025 — Aug 2026</p>
-          <div><h3>Research Assistant</h3><p class="organization">University of Twente · EEMCS</p><p>Worked with Estefanía Talavera on automatic surgical skill assessment from in-vivo laparoscopic video and on visual action understanding.</p></div>
+          <div><h3>Research Assistant</h3><p class="organization">University of Twente · EEMCS</p></div>
         </article>
         <article class="experience-item">
           <p class="item-date">Dec 2024 — Sep 2025</p>
-          <div><h3>Multimodal Deep Learning Researcher</h3><p class="organization">Arkensight</p><p>First technical hire, leading research on open-vocabulary detection, visual encoders, and multi-object tracking. Built modular pipelines for 100+ datasets and reduced detection hallucinations by 60%.</p></div>
+          <div><h3>Multimodal Deep Learning Researcher</h3><p class="organization">Arkensight</p></div>
         </article>
         <article class="experience-item">
           <p class="item-date">Mar 2025 — Jul 2025</p>
-          <div><h3>Research Assistant</h3><p class="organization">University of Zagreb · FER</p><p>Worked with Siniša Šegvić on a Google research project for road safety image classification, reaching 64.9% macro F1 on iRAP-BH.</p></div>
+          <div><h3>Research Assistant</h3><p class="organization">University of Zagreb · FER · Project for Google</p></div>
         </article>
         <article class="experience-item">
           <p class="item-date">Aug 2024 — Oct 2024</p>
-          <div><h3>Computer Vision Research Intern</h3><p class="organization">Visage Technologies</p><p>Evaluated masked image modeling with ConvNeXt-V2 for classification and detection, improving single-GPU training efficiency by up to 10×.</p></div>
+          <div><h3>Computer Vision Research Intern</h3><p class="organization">Visage Technologies</p></div>
         </article>
         <article class="experience-item">
           <p class="item-date">Jul 2024 — Aug 2024</p>
-          <div><h3>Data Science Intern</h3><p class="organization">mStart · Fortenova Group</p><p>Led a demand forecasting project for a large grocery retail supplier in Croatia.</p></div>
+          <div><h3>Data Science Intern</h3><p class="organization">mStart · Fortenova Group</p></div>
         </article>
         <article class="experience-item">
           <p class="item-date">Nov 2022 — Jul 2024</p>
-          <div><h3>Junior Deep Learning Engineer, R&amp;D</h3><p class="organization">Ericsson</p><p>Worked on BERT-based sentiment analysis and satellite object detection. Co-led a global fish-cage detection project using Sentinel imagery, achieving 87% F1 and 95% recall.</p></div>
+          <div><h3>Junior Deep Learning Engineer, R&amp;D</h3><p class="organization">Ericsson</p></div>
         </article>
         <article class="experience-item">
           <p class="item-date">Jul 2022 — Sep 2022</p>
-          <div><h3>Data Science Intern, R&amp;D Summer Program</h3><p class="organization">Ericsson</p><p>Developed remote sensing regression models for Adriatic Sea conditions using Sentinel-3 imagery.</p></div>
+          <div><h3>Data Science Intern, R&amp;D Summer Program</h3><p class="organization">Ericsson</p></div>
         </article>
       </div>
     </section>
