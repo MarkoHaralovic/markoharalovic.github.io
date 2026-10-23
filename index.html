@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f9f8f4">
+  <meta name="theme-color" content="#ffffff">
   <title>Marko Haralović · Computer Vision Researcher</title>
   <meta name="description" content="Marko Haralović — computer vision and multimodal learning researcher. Publications, research and industry experience, and selected awards.">
   <meta name="author" content="Marko Haralović">
@@ -22,7 +22,6 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="header-inner">
-      <a class="wordmark" href="#about" aria-label="Marko Haralović, back to introduction">mh<span>.</span></a>
       <nav aria-label="Main navigation">
         <a href="#publications">Publications</a>
         <a href="#experience">Experience</a>
@@ -35,30 +34,28 @@
   <main id="main" class="page">
     <section id="about" class="intro" aria-labelledby="name">
       <div class="intro-copy">
-        <p class="eyebrow">Computer vision &amp; multimodal learning</p>
-        <h1 id="name">Marko Haralović<span class="name-dot">.</span></h1>
-        <p class="lead">Master’s thesis student at ETH Zürich</p>
-        <p>I work in the Photogrammetry and Remote Sensing group at <a href="https://ethz.ch/en.html">ETH Zürich</a>, supervised by Li Mi and Lin Li, with mentorship from Konrad Schindler and Yarin Gal in collaboration with the University of Oxford. My thesis investigates geospatial knowledge and hallucinations in vision-language models.</p>
+        <h1 id="name">Marko Haralović</h1>
+        <p>I’m a master’s thesis student in the Photogrammetry and Remote Sensing group at <a href="https://ethz.ch/en.html">ETH Zürich</a>, supervised by Li Mi and Lin Li, with mentorship from Konrad Schindler and Yarin Gal in collaboration with the University of Oxford. My thesis investigates geospatial knowledge and hallucinations in vision-language models.</p>
         <p>I’m pursuing an MSc in Data Science at the <a href="https://www.fer.unizg.hr/en">University of Zagreb</a>. Previously, I spent an exchange year and worked as a research assistant at the <a href="https://www.utwente.nl/en/">University of Twente</a> with Estefanía Talavera, studying action understanding and surgical video analysis.</p>
         <div class="social-links" aria-label="Contact and profiles">
           <a href="mailto:mharalovic@ethz.ch">Email <span aria-hidden="true">↗</span></a>
           <a href="https://github.com/MarkoHaralovic">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://scholar.google.com/citations?user=Wq7AmqEAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
           <a href="https://www.linkedin.com/in/marko-Haralovic/">LinkedIn <span aria-hidden="true">↗</span></a>
           <a href="assets/CV_marko_haralovic_academic.pdf" target="_blank" rel="noopener">Curriculum vitae <span aria-hidden="true">↗</span></a>
         </div>
       </div>
       <figure class="portrait">
-        <div class="portrait-frame">
+        <a class="portrait-frame" href="assets/profile_photo.jpeg" target="_blank" rel="noopener" data-enlarge aria-label="Enlarge profile photo">
           <img src="assets/profile_photo.jpeg" width="750" height="1000" alt="Marko Haralović" fetchpriority="high">
-        </div>
-        <figcaption><span class="location-dot" aria-hidden="true"></span> Zürich, Switzerland</figcaption>
+          <span class="zoom-icon" aria-hidden="true">+</span>
+        </a>
       </figure>
     </section>
 
     <section id="publications" class="section publications" aria-labelledby="publications-title">
       <div class="section-heading">
-        <div class="heading-group"><span class="section-number" aria-hidden="true">01</span><h2 id="publications-title">Publications &amp; preprints</h2></div>
-        <span class="section-aside">2026 — 2027</span>
+        <h2 id="publications-title">Publications &amp; preprints</h2>
       </div>
       <div class="research-intro">
         <div class="filters" role="group" aria-label="Filter publications by topic" hidden>
@@ -69,13 +66,9 @@
       </div>
       <p id="filter-status" class="sr-only" role="status" aria-live="polite"></p>
       <div class="publication-list">
-        <article class="publication" data-topic="vision">
-          <div class="paper-visual geotram-visual" aria-hidden="true">
-            <svg viewBox="0 0 200 120" fill="none"><path d="M15 91C45 91 36 45 71 48S102 91 123 63 145 25 183 24" stroke="currentColor" stroke-width="1.5"/><path d="M15 104C52 104 45 64 75 65S104 106 133 78 158 38 185 38" stroke="currentColor" stroke-opacity=".3" stroke-width="1.5"/><circle cx="38" cy="74" r="4" fill="currentColor"/><circle cx="86" cy="56" r="4" fill="currentColor"/><circle cx="137" cy="43" r="4" fill="currentColor"/><circle cx="177" cy="25" r="4" fill="currentColor"/></svg>
-            <span>GeoTRAM</span><small>Geometry → action</small>
-          </div>
+        <article class="publication publication-text" data-topic="vision">
           <div class="paper-copy">
-            <div class="paper-meta"><strong class="venue">WACV 2027</strong><span>Action recognition</span></div>
+            <div class="paper-meta"><strong class="venue">WACV 2027</strong></div>
             <h3>GeoTRAM: Geometry-aware Trajectory Modeling for Few-Shot Action Recognition</h3>
             <p class="authors">Zhiqi Miao, <strong>Marko Haralović</strong>, Stanislav Levendeev, Sarvesh Angadi, Dan Ploesteanu, Jannatul Ferdous, Jiapan Guo, Estefanía Talavera</p>
             <p class="paper-description">Geometry-aware trajectory modeling for recognizing actions from a small number of examples.</p>
@@ -83,7 +76,7 @@
         </article>
 
         <article class="publication" data-topic="vision">
-          <a class="paper-visual example-medical" href="assets/publications/medsam-examples.webp" target="_blank" rel="noopener" aria-label="View segmentation examples from When Adaptation Hurts">
+          <a class="paper-visual example-medical" href="assets/publications/medsam-examples.webp" target="_blank" rel="noopener" data-enlarge aria-label="View segmentation examples from When Adaptation Hurts">
             <img src="assets/publications/medsam-examples.webp" alt="Medical image examples with segmentation boundaries and perturbed bounding-box prompts" width="200" height="130" loading="lazy">
           </a>
           <div class="paper-copy">
@@ -96,7 +89,7 @@
         </article>
 
         <article class="publication" data-topic="vision">
-          <a class="paper-visual example-tension" href="assets/publications/tension-examples.webp" target="_blank" rel="noopener" aria-label="View tissue-tension examples from SurgTension">
+          <a class="paper-visual example-tension" href="assets/publications/tension-examples.webp" target="_blank" rel="noopener" data-enlarge aria-label="View tissue-tension examples from SurgTension">
             <img src="assets/publications/tension-examples.webp" alt="Surgical video frames showing non-tension, low, moderate, adequate, and excessive tissue tension" width="200" height="130" loading="lazy">
           </a>
           <div class="paper-copy">
@@ -109,7 +102,7 @@
         </article>
 
         <article class="publication" data-topic="vision">
-          <a class="paper-visual example-gaze" href="assets/publications/g3ego-example.webp" target="_blank" rel="noopener" aria-label="View the gaze-guided action example from G3Ego">
+          <a class="paper-visual example-gaze" href="assets/publications/g3ego-example.webp" target="_blank" rel="noopener" data-enlarge aria-label="View the gaze-guided action example from G3Ego">
             <img src="assets/publications/g3ego-example.webp" alt="First-person video frame of spreading peanut butter, with gaze location and the corresponding G3Ego action graph" width="200" height="130" loading="lazy">
           </a>
           <div class="paper-copy">
@@ -122,11 +115,11 @@
         </article>
 
         <article class="publication" data-topic="language">
-          <a class="paper-visual" href="assets/publications/crisiskd-example.webp" target="_blank" rel="noopener" aria-label="View the CrisisKD annotation example">
+          <a class="paper-visual" href="assets/publications/crisiskd-example.webp" target="_blank" rel="noopener" data-enlarge aria-label="View the CrisisKD annotation example">
             <img src="assets/publications/crisiskd-example.webp" alt="Example tweet with CrisisKD aspect, opinion, sentiment, and emotion annotations" width="200" height="130" loading="lazy">
           </a>
           <div class="paper-copy">
-            <div class="paper-meta"><strong class="venue">EMNLP · W-NUT Workshop 2026</strong><span>Language</span></div>
+            <div class="paper-meta"><strong class="venue">EMNLP · W-NUT Workshop 2026</strong></div>
             <h3><a href="https://arxiv.org/abs/2609.05757">CrisisKD: Five-Stage Knowledge Distillation for Aspect-Level Sentiment and Emotion Analysis in Crisis Discourse</a></h3>
             <p class="authors"><strong>Marko Haralović</strong>, Onat Akca, Salih Eren Yücetürk, Minsi Li, Mariët Theune</p>
             <p class="paper-description">Distilling teacher-generated reasoning into smaller language models for aspect-level sentiment and emotion analysis in crisis-related social media.</p>
@@ -139,13 +132,12 @@
 
     <section id="experience" class="section" aria-labelledby="experience-title">
       <div class="section-heading">
-        <div class="heading-group"><span class="section-number" aria-hidden="true">02</span><h2 id="experience-title">Research &amp; industry</h2></div>
-        <span class="section-aside">Experience</span>
+        <h2 id="experience-title">Research &amp; industry</h2>
       </div>
       <div class="experience-list">
         <article class="experience-item">
           <p class="item-date">Sep 2026 — Apr 2027</p>
-          <div><h3>Master’s Thesis Internship <span class="current-tag">Current</span></h3><p class="organization">ETH Zürich · Photogrammetry and Remote Sensing</p><p>Probing geospatial knowledge in vision-language models through a hallucination benchmark for real-world place, entity, and relation queries. In collaboration with researchers at Oxford.</p></div>
+          <div><h3>Master’s Thesis Internship</h3><p class="organization">ETH Zürich · Photogrammetry and Remote Sensing</p><p>Probing geospatial knowledge in vision-language models through a hallucination benchmark for real-world place, entity, and relation queries. In collaboration with researchers at Oxford.</p></div>
         </article>
         <article class="experience-item">
           <p class="item-date">Nov 2025 — Aug 2026</p>
@@ -180,9 +172,9 @@
 
     <section id="education" class="section" aria-labelledby="education-title">
       <div class="section-heading">
-        <div class="heading-group"><span class="section-number" aria-hidden="true">03</span><h2 id="education-title">Education</h2></div>
+        <h2 id="education-title">Education</h2>
       </div>
-      <div class="education-grid">
+      <div class="education-list">
         <article><p class="item-date">Sep 2026 — Jul 2027 <span class="expected">(expected)</span></p><h3>ETH Zürich</h3><p class="degree">Master’s thesis · Photogrammetry and Remote Sensing</p><p class="education-detail">Li Mi, Lin Li · Mentors: Konrad Schindler, Yarin Gal</p></article>
         <article><p class="item-date">Sep 2024 — Jun 2027 <span class="expected">(expected)</span></p><h3>University of Zagreb</h3><p class="degree">MSc in Data Science · FER</p><p class="education-detail">GPA 4.53 / 5.00 · Siniša Šegvić, Dario Bojanjac</p></article>
         <article><p class="item-date">Sep 2025 — Jul 2026</p><h3>University of Twente</h3><p class="degree">MSc Data Science · Exchange year</p><p class="education-detail">GPA 8.50 / 10.00 · Estefanía Talavera</p></article>
@@ -192,8 +184,7 @@
 
     <section id="awards" class="section" aria-labelledby="awards-title">
       <div class="section-heading">
-        <div class="heading-group"><span class="section-number" aria-hidden="true">04</span><h2 id="awards-title">Honors &amp; awards</h2></div>
-        <span class="section-aside">Selected recognition</span>
+        <h2 id="awards-title">Honors &amp; awards</h2>
       </div>
       <ul class="award-list">
         <li><span class="award-year">2026</span><div><h3>FER Scholarship for International Research Mobility</h3><p>One of five awarded · Thesis research at ETH Zürich</p></div></li>
@@ -222,8 +213,11 @@
   </main>
   <footer class="site-footer page">
     <p>© <span id="year">2026</span> Marko Haralović</p>
-    <p>Last updated October 2026</p>
     <a href="#about">Back to top <span aria-hidden="true">↑</span></a>
   </footer>
+  <dialog id="image-viewer" aria-label="Enlarged image">
+    <button class="viewer-close" type="button" aria-label="Close enlarged image" autofocus>×</button>
+    <img class="viewer-image" alt="">
+  </dialog>
 </body>
 </html>
