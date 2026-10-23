@@ -43,8 +43,6 @@ h3 { font-size: 15px; line-height: 1.5; font-weight: 600; }
 .publication-text .paper-copy { grid-column: 2; }
 .paper-visual { display: flex; align-items: center; justify-content: center; width: 200px; height: 145px; overflow: hidden; cursor: zoom-in; background: #fff; }
 .paper-visual img { width: 100%; height: 100%; object-fit: contain; }
-.example-medical img, .example-gaze img { object-fit: cover; object-position: left center; }
-.example-tension img { transform: scale(3.5); transform-origin: 50% 70%; }
 .paper-meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; margin-bottom: 7px; font-size: 12px; }
 .venue, .authors strong { font-weight: 700; }
 .paper-highlight { font-size: 12px; }
